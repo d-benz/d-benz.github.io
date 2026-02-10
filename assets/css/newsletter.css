@@ -2,95 +2,80 @@
 /*   PERFECT NEWSLETTER CSS  */
 /* ========================= */
 
-
 /* ========================= */
-/*   ABSOLUTE TITLE KILLER   */
+/* 1. ABSOLUTE TITLE KILLER #1 */
 /* ========================= */
-
-/* Kill ONLY titles OUTSIDE newsletter-hero */
-body.newsletter-page h1:not(.newsletter-hero h1),
-body.newsletter-page .page-title,
-body.newsletter-page .post-title,
+body.newsletter-page h1, 
+body.newsletter-page .h1,
+body.newsletter-page [class*="title"],
+body.newsletter-page [class*="Title"],
+body.newsletter-page time,
+body.newsletter-page .post-meta,
+body.newsletter-page .post-date,
+body.newsletter-page .date,
 body.newsletter-page .entry-title,
-body.newsletter-page header h1:not(.newsletter-hero h1),
-body.newsletter-page time:not(.newsletter-hero time),
-body.newsletter-page .post-meta:not(.newsletter-hero .post-meta),
-body.newsletter-page .post-date:not(.newsletter-hero .post-date) {
+body.newsletter-page .page-header h1 {
   display: none !important;
+  visibility: hidden !important;
 }
 
 /* ========================= */
-/*   GLOBAL PAGE RESET       */
+/* 2. HERO - MAX SPECIFICITY */
 /* ========================= */
-
-body.newsletter-page {
-  font-family: "Open Sans", sans-serif !important;
-  background: #fafafa;
-  color: #222;
-}
-
-/* ========================= */
-/*   NEWSLETTER HERO BLOCK   */
-/* ========================= */
-
 body.newsletter-page .newsletter-hero {
   background: #1F3633 !important;
   color: white !important;
   padding: 4rem 2rem 3.5rem 2rem !important;
   text-align: center !important;
-  margin: 2rem auto 3rem auto !important;
+  margin: 2rem auto 3rem !important;
   border-radius: 8px !important;
   line-height: 1.55 !important;
   max-width: 720px !important;
 }
 
-/* Main title */
-body.newsletter-page .newsletter-hero h1 {
-  margin-bottom: 0.75rem !important;
-  font-size: 3rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.5px !important;
+body.newsletter-page .newsletter-hero * {
   color: white !important;
 }
 
-/* Tagline */
+body.newsletter-page .newsletter-hero h1 {
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.75rem !important;
+  letter-spacing: 0.5px !important;
+}
+
 body.newsletter-page .newsletter-hero .tagline {
   font-size: 1.35rem !important;
   margin-bottom: 1.5rem !important;
-  font-weight: 400 !important;
   opacity: 0.95 !important;
-  color: white !important;
 }
 
-/* Description */
 body.newsletter-page .newsletter-hero .description {
-  max-width: 720px !important;
-  margin: 0 auto 1.5rem auto !important;
   font-size: 1.15rem !important;
   line-height: 1.6 !important;
   opacity: 0.95 !important;
-  color: white !important;
+  max-width: 720px !important;
+  margin: 0 auto 1.5rem !important;
 }
 
-/* Byline */
 body.newsletter-page .newsletter-hero .byline {
   font-size: 1rem !important;
   margin-bottom: 0.75rem !important;
   opacity: 0.9 !important;
-  color: white !important;
 }
 
-/* Date */
 body.newsletter-page .newsletter-hero .date {
   font-size: 1rem !important;
   opacity: 0.85 !important;
-  margin-top: 0.25rem !important;
-  color: white !important;
 }
 
 /* ========================= */
-/*   BODY + CONTENT          */
+/* 3. BODY & CONTENT */
 /* ========================= */
+body.newsletter-page {
+  font-family: "Open Sans", sans-serif !important;
+  background: #fafafa !important;
+}
 
 body.newsletter-page .newsletter-body {
   background: white !important;
@@ -102,53 +87,41 @@ body.newsletter-page .newsletter-body {
 }
 
 /* ========================= */
-/*   DISCLAIMER              */
+/* 4. DISCLAIMER */
 /* ========================= */
-
 body.newsletter-page .newsletter-disclaimer {
-  margin-top: 4rem !important;
-  padding: 2.5rem !important;
   background: white !important;
+  padding: 2.5rem !important;
   border-radius: 8px !important;
   box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
   border-top: 4px solid #138090 !important;
+  margin-top: 2rem !important;
   font-size: 0.9rem !important;
   line-height: 1.65 !important;
 }
 
 body.newsletter-page .newsletter-disclaimer h2 {
-  margin-bottom: 1.5rem !important;
-  font-size: 1.3rem !important;
   color: #1F3633 !important;
-  border-bottom: 2px solid #eee !important;
-  padding-bottom: 0.5rem !important;
+  font-size: 1.3rem !important;
+  margin-bottom: 1.5rem !important;
 }
 
 /* ========================= */
-/*   LINK COLOURS            */
+/* 5. LINKS */
 /* ========================= */
-
-body.newsletter-page .newsletter-body a,
-body.newsletter-page .newsletter-hero a,
-body.newsletter-page .newsletter-disclaimer a {
+body.newsletter-page a {
   color: #138090 !important;
   text-decoration: underline !important;
-  font-weight: 500 !important;
 }
 
-body.newsletter-page .newsletter-body a:hover,
-body.newsletter-page .newsletter-hero a:hover,
-body.newsletter-page .newsletter-disclaimer a:hover {
+body.newsletter-page a:hover {
   color: #0f6a74 !important;
-  text-decoration: none !important;
 }
 
 /* ========================= */
-/*   NARROW WIDTH            */
+/* 6. LAYOUT WIDTH */
 /* ========================= */
-
 body.newsletter-page main.container,
 body.newsletter-page .container {
   max-width: 720px !important;
-  margin: 0 auto !important;
 }
