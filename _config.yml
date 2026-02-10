@@ -31,6 +31,11 @@ navbar-links:
 #    - Learn markdown: "https://www.markdowntutorial.com/"
   Company Site: "https://takomexploration.com"
 
+collections:
+  newsletters:
+    output: true
+    permalink: /newsletter/:name/
+
 ################
 # --- Logo --- #
 ################
@@ -292,9 +297,9 @@ defaults:
 
     scope:
       path: "" # any file that's not a post will be a "page" layout by default
-      type: "newsletter"
+      type: "newsletters"
     values:
-      layout: "post"
+      layout: "newsletter"
       comments: false
       social-share: true
 
