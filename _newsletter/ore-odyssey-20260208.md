@@ -1,12 +1,11 @@
 ---
-layout: default
+layout: newsletter
 title: ""
 permalink: /newsletter/ore-odyssey-20260208/
 newsletter_date: 2026-02-08
 class: newsletter-page
 css: newsletter
 ---
-
 
 
 ---

@@ -1,12 +1,6 @@
 ---
 layout: page
-class: newsletter-page
 ---
-{% if page.css %}
-  <link rel="stylesheet" href="{{ '/assets/css/' | append: page.css | append: '.css' | relative_url }}">
-{% endif %}
-
-{% assign page_style = "newsletter-page" %}
 
 <!-- HERO BLOCK -->
 <div class="newsletter-hero">
@@ -17,6 +11,11 @@ class: newsletter-page
   </p>
   <p class="byline">Brought to you by Takom Exploration Ltd.</p>
   <p class="date">{{ page.newsletter_date | date: "%B %d, %Y" }}</p>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="newsletter-body post-content">
+  {{ content }}
 </div>
 
 <!-- MAIN CONTENT -->
