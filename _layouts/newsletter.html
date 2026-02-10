@@ -4,9 +4,7 @@ layout: newsletter
 
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-  <link rel="stylesheet" href="{{ '/assets/css/newsletter.css' | relative_url }}">
-  </head>  
+  {% include head.html %}  <!-- Beautiful Jekyll handles <head> closing -->
   <body class="newsletter-page">
 
     {% assign page.header = "none" %}
