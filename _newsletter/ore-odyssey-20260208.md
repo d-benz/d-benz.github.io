@@ -1,6 +1,7 @@
 ---
 layout: newsletter
 title: ""
+date: ""
 permalink: /newsletter/ore-odyssey-20260208/
 newsletter_date: 2026-02-08
 ---

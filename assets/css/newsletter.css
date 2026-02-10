@@ -1,0 +1,169 @@
+/* ========================= */
+/*   PERFECT NEWSLETTER CSS  */
+/* ========================= */
+
+/* ========================= */
+/*   GLOBAL PAGE RESET       */
+/* ========================= */
+
+body.newsletter-page {
+  font-family: "Open Sans", sans-serif !important;
+  background: #fafafa;
+  color: #222;
+}
+
+/* ========================= */
+/*   NEWSLETTER HERO BLOCK   */
+/* ========================= */
+
+body.newsletter-page .newsletter-hero {
+  background: #1F3633;
+  color: white;
+  padding: 4rem 2rem 3.5rem 2rem;
+  text-align: center;
+  margin: 2rem auto 3rem;
+  border-radius: 8px;
+  line-height: 1.55;
+  max-width: 720px;
+}
+
+/* Main title */
+body.newsletter-page .newsletter-hero h1 {
+  margin-bottom: 0.75rem;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Tagline */
+body.newsletter-page .newsletter-hero .tagline {
+  font-size: 1.35rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+  opacity: 0.95;
+}
+
+/* Description */
+body.newsletter-page .newsletter-hero .description {
+  max-width: 720px;
+  margin: 0 auto 1.5rem auto;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+
+/* Byline */
+body.newsletter-page .newsletter-hero .byline {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  opacity: 0.9;
+}
+
+/* Date */
+body.newsletter-page .newsletter-hero .date {
+  font-size: 1rem;
+  opacity: 0.85;
+  margin-top: 0.25rem;
+}
+
+/* ========================= */
+/*   BODY + CONTENT          */
+/* ========================= */
+
+body.newsletter-page .newsletter-body.post-content {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  margin-bottom: 3rem;
+  line-height: 1.7;
+}
+
+body.newsletter-page .newsletter-body {
+  margin-bottom: 3rem;
+}
+
+/* ========================= */
+/*   DISCLAIMER              */
+/* ========================= */
+
+body.newsletter-page .newsletter-disclaimer {
+  margin-top: 4rem;
+  padding: 2.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border-top: 4px solid #138090;
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+body.newsletter-page .newsletter-disclaimer h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+  color: #1F3633;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+/* ========================= */
+/*   LINK COLOURS            */
+/* ========================= */
+
+body.newsletter-page .newsletter-body a,
+body.newsletter-page .newsletter-hero a,
+body.newsletter-page .newsletter-disclaimer a {
+  color: #138090;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+body.newsletter-page .newsletter-body a:hover,
+body.newsletter-page .newsletter-hero a:hover,
+body.newsletter-page .newsletter-disclaimer a:hover {
+  color: #0f6a74;
+  text-decoration: none;
+}
+
+/* ========================= */
+/*   NARROW READABLE WIDTH   */
+/* ========================= */
+
+body.newsletter-page main.container,
+body.newsletter-page .container {
+  max-width: 720px !important;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* ========================= */
+/*   HIDE DEFAULT TITLE      */
+/* ========================= */
+
+body.newsletter-page .page-title,
+body.newsletter-page h1.page-title,
+body.newsletter-page .post-title {
+  display: none !important;
+}
+
+/* ========================= */
+/*   PERFECT RESPONSIVE      */
+/* ========================= */
+
+@media (max-width: 768px) {
+  body.newsletter-page .newsletter-hero {
+    padding: 2.5rem 1.5rem;
+    margin: 1rem;
+  }
+  
+  body.newsletter-page .newsletter-hero h1 {
+    font-size: 2.2rem;
+  }
+  
+  body.newsletter-page .newsletter-body.post-content,
+  body.newsletter-page .newsletter-disclaimer {
+    margin: 1rem;
+    padding: 2rem 1.5rem;
+  }
+}
