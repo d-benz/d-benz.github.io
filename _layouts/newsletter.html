@@ -7,12 +7,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }}</title>
-  <!-- TEST with direct URL first -->
-  <link rel="stylesheet" href="/assets/css/newsletter.css">
-  <!-- THEN add fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/newsletter.css' | relative_url }}">
+  {% include head.html %}
 </head>
-
 <body class="newsletter-page">
 
   {% assign page.header = "none" %}
@@ -40,29 +38,32 @@
   <!-- ========================= -->
   <!--   MAIN CONTENT WRAPPER    -->
   <!-- ========================= -->
-  <div class="container-md newsletter-outer">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+  <main id="main" role="main" class="beautiful-jekyll-body">
+    <div class="container-md newsletter-outer">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          
+          {% if page.before-content %}
+            <div class="before-content">
+              {% for file in page.before-content %}
+                {% include {{ file }} %}
+              {% endfor %}
+            </div>
+          {% endif %}
 
-        {% if page.before-content %}
-          <div class="before-content">
-            {% for file in page.before-content %}
-              {% include {{ file }} %}
-            {% endfor %}
-          </div>
-        {% endif %}
+          <article class="page">
+            <div class="newsletter-body">
+              {{ content }}
+            </div>
+          </article>
 
-        <div class="newsletter-body">
-          {{ content }}
-        </div>
-
-        {% if page.after-content %}
-          <div class="after-content">
-            {% for file in page.after-content %}
-              {% include {{ file }} %}
-            {% endfor %}
-          </div>
-        {% endif %}
+          {% if page.after-content %}
+            <div class="after-content">
+              {% for file in page.after-content %}
+                {% include {{ file }} %}
+              {% endfor %}
+            </div>
+          {% endif %}
 
         <!-- ========================= -->
         <!--     DISCLAIMER BLOCK      -->
@@ -86,6 +87,8 @@
     </div>
   </div>
 
+  {% include footer.html %}
   {% include footer-scripts.html %}
+  
 </body>
 </html>
