@@ -1,4 +1,19 @@
 /* ========================= */
+/*   GLOBAL PAGE RESET       */
+/* ========================= */
+
+body.newsletter-page {
+  font-family: "Open Sans", sans-serif !important;
+  background: #fafafa;
+  color: #222;
+}
+
+.newsletter-outer {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+/* ========================= */
 /*   NEWSLETTER HERO BLOCK   */
 /* ========================= */
 
@@ -10,8 +25,6 @@
   margin-bottom: 3rem;
   border-radius: 8px;
   line-height: 1.55;
-  width: 100%;
-  display: block;
 }
 
 /* Main title */
@@ -89,28 +102,4 @@
 .newsletter-hero a:hover,
 .newsletter-disclaimer a:hover {
   color: #0f6a74;
-}
-
-/* ========================= */
-/*   GLOBAL FONT FIX         */
-/* ========================= */
-
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
-/* Center the entire page */
-body.newsletter-page {
-  font-family: "Open Sans", sans-serif !important;
-  background: #fafafa;
-}
-
-/* Add spacing so nav doesn't sit on top of hero */
-.newsletter-hero {
-  margin-top: 2rem;
-}
-
-/* Add spacing above footer */
-.newsletter-wrapper {
-  padding-bottom: 3rem;
 }

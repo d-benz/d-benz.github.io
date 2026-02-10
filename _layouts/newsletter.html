@@ -1,7 +1,7 @@
 ---
 layout: none
 css:
-  - /assets/css/newsletterhero.css
+  - /assets/css/newsletter.css
 ---
 
 <!DOCTYPE html>
@@ -13,9 +13,9 @@ css:
     {% include nav.html %}
 
     <!-- ========================= -->
-    <!--   NEWSLETTER HERO BLOCK   -->
+    <!--   HERO BLOCK (CENTERED)   -->
     <!-- ========================= -->
-    <div class="container-md">
+    <div class="container-md newsletter-outer">
       <div class="row">
         <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
           <div class="newsletter-hero">
@@ -34,7 +34,7 @@ css:
     <!-- ========================= -->
     <!--   MAIN CONTENT WRAPPER    -->
     <!-- ========================= -->
-    <div class="container-md newsletter-wrapper">
+    <div class="container-md newsletter-outer">
       <div class="row">
         <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
 
@@ -74,12 +74,12 @@ css:
             <p>This service is provided at no charge, and by accessing any newsletter(s), you acknowledge and accept the terms of this disclaimer. All content in Takom Exploration Ltd. newsletters is protected by copyright. Copying, redistribution, or republication of the newsletters or their content for commercial purposes requires explicit permission and is strictly reserved.</p>
           </div>
 
+          {% include footer.html %}
+
         </div>
       </div>
     </div>
 
-    {% include footer.html %}
     {% include footer-scripts.html %}
-
   </body>
 </html>
