@@ -34,7 +34,7 @@ navbar-links:
 collections:
   newsletters:
     output: true
-    permalink: /newsletter/:name/
+    permalink: /:name/
 
 ################
 # --- Logo --- #
