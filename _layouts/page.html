@@ -15,9 +15,10 @@ layout: base
         </div>
       {% endif %}
 
-      {% unless page.layout == "newsletter" %}
+      {% if page.layout != "newsletter" %}
         {{ content }}
-      {% endunless %}
+      {% endif %}
+
 
 
       {% if page.after-content %}
