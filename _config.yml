@@ -32,7 +32,7 @@ navbar-links:
   Company Site: "https://takomexploration.com"
 
 collections:
-  newsletters:
+  newsletter:
     output: true
     permalink: /:name/
 
@@ -299,7 +299,7 @@ defaults:
   -
     scope:
       path: ""
-      type: "newsletters"
+      type: "newsletter"
     values:
       layout: "newsletter"
       comments: false
