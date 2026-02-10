@@ -1,4 +1,8 @@
 /* ========================= */
+/*   PERFECT NEWSLETTER CSS  */
+/* ========================= */
+
+/* ========================= */
 /*   GLOBAL PAGE RESET       */
 /* ========================= */
 
@@ -8,27 +12,23 @@ body.newsletter-page {
   color: #222;
 }
 
-.newsletter-outer {
-  padding-top: 1.5rem;
-  padding-bottom: 2rem;
-}
-
 /* ========================= */
 /*   NEWSLETTER HERO BLOCK   */
 /* ========================= */
 
-.newsletter-hero {
+body.newsletter-page .newsletter-hero {
   background: #1F3633;
   color: white;
   padding: 4rem 2rem 3.5rem 2rem;
   text-align: center;
-  margin-bottom: 3rem;
+  margin: 2rem auto 3rem;
   border-radius: 8px;
   line-height: 1.55;
+  max-width: 720px;
 }
 
 /* Main title */
-.newsletter-hero h1 {
+body.newsletter-page .newsletter-hero h1 {
   margin-bottom: 0.75rem;
   font-size: 3rem;
   font-weight: 700;
@@ -36,7 +36,7 @@ body.newsletter-page {
 }
 
 /* Tagline */
-.newsletter-hero .tagline {
+body.newsletter-page .newsletter-hero .tagline {
   font-size: 1.35rem;
   margin-bottom: 1.5rem;
   font-weight: 400;
@@ -44,7 +44,7 @@ body.newsletter-page {
 }
 
 /* Description */
-.newsletter-hero .description {
+body.newsletter-page .newsletter-hero .description {
   max-width: 720px;
   margin: 0 auto 1.5rem auto;
   font-size: 1.15rem;
@@ -53,94 +53,117 @@ body.newsletter-page {
 }
 
 /* Byline */
-.newsletter-hero .byline {
+body.newsletter-page .newsletter-hero .byline {
   font-size: 1rem;
   margin-bottom: 0.75rem;
   opacity: 0.9;
 }
 
 /* Date */
-.newsletter-hero .date {
+body.newsletter-page .newsletter-hero .date {
   font-size: 1rem;
   opacity: 0.85;
   margin-top: 0.25rem;
 }
 
 /* ========================= */
-/*   BODY + DISCLAIMER       */
+/*   BODY + CONTENT          */
 /* ========================= */
 
-.newsletter-body {
+body.newsletter-page .newsletter-body.post-content {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  margin-bottom: 3rem;
+  line-height: 1.7;
+}
+
+body.newsletter-page .newsletter-body {
   margin-bottom: 3rem;
 }
 
-.newsletter-disclaimer {
+/* ========================= */
+/*   DISCLAIMER              */
+/* ========================= */
+
+body.newsletter-page .newsletter-disclaimer {
   margin-top: 4rem;
-  padding-top: 2rem;
-  border-top: 1px solid #ccc;
+  padding: 2.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border-top: 4px solid #138090;
   font-size: 0.9rem;
-  line-height: 1.5;
+  line-height: 1.65;
 }
 
-.newsletter-disclaimer h2 {
-  margin-bottom: 1rem;
+body.newsletter-page .newsletter-disclaimer h2 {
+  margin-bottom: 1.5rem;
   font-size: 1.3rem;
+  color: #1F3633;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
 }
 
 /* ========================= */
-/*   LINK COLOUR OVERRIDE    */
+/*   LINK COLOURS            */
 /* ========================= */
 
-.newsletter-body a,
-.newsletter-hero a,
-.newsletter-disclaimer a {
+body.newsletter-page .newsletter-body a,
+body.newsletter-page .newsletter-hero a,
+body.newsletter-page .newsletter-disclaimer a {
   color: #138090;
   text-decoration: underline;
+  font-weight: 500;
 }
 
-.newsletter-body a:hover,
-.newsletter-hero a:hover,
-.newsletter-disclaimer a:hover {
+body.newsletter-page .newsletter-body a:hover,
+body.newsletter-page .newsletter-hero a:hover,
+body.newsletter-page .newsletter-disclaimer a:hover {
   color: #0f6a74;
+  text-decoration: none;
 }
 
 /* ========================= */
-/*   NEW: Narrower Layout    */
+/*   NARROW READABLE WIDTH   */
 /* ========================= */
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 680px !important;  /* Tighter than default 1140px */
+body.newsletter-page main.container,
+body.newsletter-page .container {
+  max-width: 720px !important;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* ========================= */
+/*   HIDE DEFAULT TITLE      */
+/* ========================= */
+
+body.newsletter-page .page-title,
+body.newsletter-page h1.page-title,
+body.newsletter-page .post-title {
+  display: none !important;
+}
+
+/* ========================= */
+/*   PERFECT RESPONSIVE      */
+/* ========================= */
+
+@media (max-width: 768px) {
+  body.newsletter-page .newsletter-hero {
+    padding: 2.5rem 1.5rem;
+    margin: 1rem;
   }
-}
-
-/* Hero wrapper spacing */
-.newsletter-hero-wrapper {
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-}
-
-/* Restore Beautiful Jekyll header styling */
-.site-header {
-  background: #fff;
-  border-bottom: 1px solid #eee;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-/* Newsletter hero section */
-.newsletter-hero-section {
-  padding: 2rem 0;
-}
-
-/* Ensure theme content styling works */
-.beautiful-jekyll-body {
-  padding: 2rem 0;
-}
-
-.post-content {
-  background: white;
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  margin-bottom: 2rem;
+  
+  body.newsletter-page .newsletter-hero h1 {
+    font-size: 2.2rem;
+  }
+  
+  body.newsletter-page .newsletter-body.post-content,
+  body.newsletter-page .newsletter-disclaimer {
+    margin: 1rem;
+    padding: 2rem 1.5rem;
+  }
 }
