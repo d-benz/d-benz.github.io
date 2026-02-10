@@ -1,35 +1,34 @@
 /* ========================= */
 /*   PERFECT NEWSLETTER CSS  */
 /* ========================= */
-
 /* ========================= */
-/* NUKE ALL TITLES - TOP     */
+/* ABSOLUTE TITLE KILLER     */
 /* ========================= */
 
-body.newsletter-page * {
-  /* Kill every possible title/date source */
-}
-
-body.newsletter-page h1,
-body.newsletter-page .h1,
-body.newsletter-page [class*="title"],
-body.newsletter-page [class*="Title"],
-body.newsletter-page .post-title,
-body.newsletter-page .entry-title,
-body.newsletter-page .page-header h1,
-body.newsletter-page header h1,
-body.newsletter-page .page-title,
-body.newsletter-page time,
-body.newsletter-page .post-meta,
-body.newsletter-page .post-date,
-body.newsletter-page .date {
+/* Kill EVERYTHING except our hero */
+body.newsletter-page *:not(.newsletter-hero) h1,
+body.newsletter-page *:not(.newsletter-hero) .h1,
+body.newsletter-page *:not(.newsletter-hero) [class*="title"],
+body.newsletter-page *:not(.newsletter-hero) [class*="Title"],
+body.newsletter-page *:not(.newsletter-hero) time,
+body.newsletter-page *:not(.newsletter-hero) .post-meta,
+body.newsletter-page *:not(.newsletter-hero) .post-date,
+body.newsletter-page *:not(.newsletter-hero) .date {
   display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-/* PROTECT YOUR HERO */
+/* PROTECT HERO - Make it visible */
+body.newsletter-page .newsletter-hero,
 body.newsletter-page .newsletter-hero h1,
 body.newsletter-page .newsletter-hero p {
   display: block !important;
+  visibility: visible !important;
 }
 
 /* ========================= */
