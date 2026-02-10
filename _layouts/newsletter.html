@@ -1,83 +1,89 @@
 ---
-layout: newsletter
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}  <!-- Beautiful Jekyll handles <head> closing -->
-  <body class="newsletter-page">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/newsletter.css' | relative_url }}">
+  {% include head.html %}
+</head>
+<body class="newsletter-page">
 
-    {% assign page.header = "none" %}
-    {% include nav.html %}
+  {% assign page.header = "none" %}
+  {% include nav.html %}
 
-    <!-- ========================= -->
-    <!--   HERO BLOCK (CENTERED)   -->
-    <!-- ========================= -->
-    <div class="container-md newsletter-outer">
-      <div class="row">
-        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-          <div class="newsletter-hero">
-            <h1>Ore Odyssey</h1>
-            <p class="tagline">Real news.</p>
-            <p class="description">
-              A newsletter featuring the latest mineral exploration activities and developments in British Columbia and the Yukon Territory, Canada.
-            </p>
-            <p class="byline">Brought to you by Takom Exploration Ltd.</p>
-            <p class="date">{{ page.newsletter_date | date: "%B %d, %Y" }}</p>
-          </div>
+  <!-- ========================= -->
+  <!--   HERO BLOCK (CENTERED)   -->
+  <!-- ========================= -->
+  <div class="container-md newsletter-outer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="newsletter-hero">
+          <h1>Ore Odyssey</h1>
+          <p class="tagline">Real news.</p>
+          <p class="description">
+            A newsletter featuring the latest mineral exploration activities and developments in British Columbia and the Yukon Territory, Canada.
+          </p>
+          <p class="byline">Brought to you by Takom Exploration Ltd.</p>
+          <p class="date">{{ page.newsletter_date | date: "%B %d, %Y" }}</p>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- ========================= -->
-    <!--   MAIN CONTENT WRAPPER    -->
-    <!-- ========================= -->
-    <div class="container-md newsletter-outer">
-      <div class="row">
-        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+  <!-- ========================= -->
+  <!--   MAIN CONTENT WRAPPER    -->
+  <!-- ========================= -->
+  <div class="container-md newsletter-outer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
 
-          {% if page.before-content %}
-            <div class="before-content">
-              {% for file in page.before-content %}
-                {% include {{ file }} %}
-              {% endfor %}
-            </div>
-          {% endif %}
-
-          <div class="newsletter-body">
-            {{ content }}
+        {% if page.before-content %}
+          <div class="before-content">
+            {% for file in page.before-content %}
+              {% include {{ file }} %}
+            {% endfor %}
           </div>
+        {% endif %}
 
-          {% if page.after-content %}
-            <div class="after-content">
-              {% for file in page.after-content %}
-                {% include {{ file }} %}
-              {% endfor %}
-            </div>
-          {% endif %}
-
-          <!-- ========================= -->
-          <!--     DISCLAIMER BLOCK      -->
-          <!-- ========================= -->
-          <div class="newsletter-disclaimer">
-            <h2>Disclaimer</h2>
-            <p>Takom Exploration Ltd. and its members, officers, directors, owners, employees, agents, representatives, suppliers and service providers (collectively “Takom”) provide this website (the “Site”) for informational purposes only. Use of and access to the Site and the information, materials, services, and other content available on or through the Site (“Content”) are subject to these terms of use and all applicable laws.</p>
-
-            <p>The Content is for informational purposes only; you should not construe any such information or other material as legal, tax, investment, financial, or other advice. Nothing contained on our Site constitutes a solicitation, recommendation, endorsement, or offer by Takom or any third-party service provider to buy or sell any securities or other financial instruments in any jurisdiction in which such solicitation or offer would be unlawful.</p>
-
-            <p>Readers are encouraged to seek advice from licensed professionals and Qualified Persons for any technical, geological, financial, or investment decisions.</p>
-
-            <p>Whilst Takom has used reasonable endeavours to ensure that the information provided in the newsletters is accurate and up to date as at the time of issue, it reserves the right to make corrections and does not warrant that it is accurate or complete. The news will change with time. Takom hereby disclaims all liability to the maximum extent permitted by law in relation to the newsletters and does not give any warranties (including any statutory ones) in relation to the news.</p>
-
-            <p>This service is provided at no charge, and by accessing any newsletter(s), you acknowledge and accept the terms of this disclaimer. All content in Takom Exploration Ltd. newsletters is protected by copyright. Copying, redistribution, or republication of the newsletters or their content for commercial purposes requires explicit permission and is strictly reserved.</p>
-          </div>
-
-          {% include footer.html %}
-
+        <div class="newsletter-body">
+          {{ content }}
         </div>
+
+        {% if page.after-content %}
+          <div class="after-content">
+            {% for file in page.after-content %}
+              {% include {{ file }} %}
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        <!-- ========================= -->
+        <!--     DISCLAIMER BLOCK      -->
+        <!-- ========================= -->
+        <div class="newsletter-disclaimer">
+          <h2>Disclaimer</h2>
+          <p>Takom Exploration Ltd. and its members, officers, directors, owners, employees, agents, representatives, suppliers and service providers (collectively "Takom") provide this website (the "Site") for informational purposes only. Use of and access to the Site and the information, materials, services, and other content available on or through the Site ("Content") are subject to these terms of use and all applicable laws.</p>
+
+          <p>The Content is for informational purposes only; you should not construe any such information or other material as legal, tax, investment, financial, or other advice. Nothing contained on our Site constitutes a solicitation, recommendation, endorsement, or offer by Takom or any third-party service provider to buy or sell any securities or other financial instruments in any jurisdiction in which such solicitation or offer would be unlawful.</p>
+
+          <p>Readers are encouraged to seek advice from licensed professionals and Qualified Persons for any technical, geological, financial, or investment decisions.</p>
+
+          <p>Whilst Takom has used reasonable endeavours to ensure that the information provided in the newsletters is accurate and up to date as at the time of issue, it reserves the right to make corrections and does not warrant that it is accurate or complete. The news will change with time. Takom hereby disclaims all liability to the maximum extent permitted by law in relation to the newsletters and does not give any warranties (including any statutory ones) in relation to the news.</p>
+
+          <p>This service is provided at no charge, and by accessing any newsletter(s), you acknowledge and accept the terms of this disclaimer. All content in Takom Exploration Ltd. newsletters is protected by copyright. Copying, redistribution, or republication of the newsletters or their content for commercial purposes requires explicit permission and is strictly reserved.</p>
+        </div>
+
+        {% include footer.html %}
+
       </div>
     </div>
+  </div>
 
-    {% include footer-scripts.html %}
-  </body>
+  {% include footer-scripts.html %}
+</body>
 </html>
