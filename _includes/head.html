@@ -172,4 +172,8 @@
     {% endfor %}
   {% endif %}
 
+  {% if page.css %}
+  <link rel="stylesheet" href="{{ '/assets/css/' | append: page.css | append: '.css' | relative_url }}">
+  {% endif %}
+
 </head>
