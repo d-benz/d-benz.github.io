@@ -1,8 +1,8 @@
 ---
 layout: newsletter
 title: ""
-permalink: /newsletter/ore-odyssey-20260208/
-newsletter_date: 2026-02-08
+permalink: /newsletter/ore-odyssey-20260206/
+newsletter_date: 2026-02-06
 class: newsletter-page
 css: newsletter
 ---
