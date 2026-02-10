@@ -301,7 +301,7 @@ defaults:
 
   -
     scope:
-      path: ""
+      path: "_newsletter"
       type: "newsletter"
     values:
       layout: "newsletter"
