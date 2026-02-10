@@ -2,8 +2,95 @@
 layout: page
 ---
 
-{% assign page_style = "newsletter-page" %}
+<style>
+/* INLINE - CANNOT BE OVERRIDDEN */
+body.newsletter-page {
+  font-family: "Open Sans", sans-serif !important;
+  background: #fafafa !important;
+}
 
+body.newsletter-page .newsletter-hero {
+  background: #1F3633 !important;
+  color: white !important;
+  padding: 4rem 2rem 3.5rem !important;
+  text-align: center !important;
+  margin: 2rem auto 3rem !important;
+  border-radius: 8px !important;
+  line-height: 1.55 !important;
+  max-width: 720px !important;
+  box-sizing: border-box !important;
+}
+
+body.newsletter-page .newsletter-hero h1 {
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.75rem !important;
+  letter-spacing: 0.5px !important;
+}
+
+body.newsletter-page .newsletter-hero p {
+  margin: 0.5rem 0 !important;
+  color: white !important;
+}
+
+body.newsletter-page .newsletter-hero .tagline {
+  font-size: 1.35rem !important;
+  opacity: 0.95 !important;
+}
+
+body.newsletter-page .newsletter-hero .description {
+  font-size: 1.15rem !important;
+  line-height: 1.6 !important;
+  opacity: 0.95 !important;
+}
+
+body.newsletter-page .newsletter-hero .byline {
+  font-size: 1rem !important;
+  opacity: 0.9 !important;
+}
+
+body.newsletter-page .newsletter-hero .date {
+  font-size: 1rem !important;
+  opacity: 0.85 !important;
+}
+
+/* KILL ALL OTHER TITLES */
+body.newsletter-page h1:not(.newsletter-hero h1),
+body.newsletter-page .page-title,
+body.newsletter-page time {
+  display: none !important;
+}
+
+body.newsletter-page .newsletter-body {
+  background: white !important;
+  padding: 2.5rem !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+  margin-bottom: 3rem !important;
+}
+
+body.newsletter-page .newsletter-disclaimer {
+  background: white !important;
+  padding: 2.5rem !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+  border-top: 4px solid #138090 !important;
+  margin-top: 2rem !important;
+}
+
+body.newsletter-page a {
+  color: #138090 !important;
+}
+
+body.newsletter-page a:hover {
+  color: #0f6a74 !important;
+}
+
+body.newsletter-page main.container {
+  max-width: 720px !important;
+}
+
+</style>
 <!-- HERO BLOCK -->
 <div class="newsletter-hero">
   <h1>Ore Odyssey</h1>
