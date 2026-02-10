@@ -103,3 +103,44 @@ body.newsletter-page {
 .newsletter-disclaimer a:hover {
   color: #0f6a74;
 }
+
+/* ========================= */
+/*   NEW: Narrower Layout    */
+/* ========================= */
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 680px !important;  /* Tighter than default 1140px */
+  }
+}
+
+/* Hero wrapper spacing */
+.newsletter-hero-wrapper {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+/* Restore Beautiful Jekyll header styling */
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Newsletter hero section */
+.newsletter-hero-section {
+  padding: 2rem 0;
+}
+
+/* Ensure theme content styling works */
+.beautiful-jekyll-body {
+  padding: 2rem 0;
+}
+
+.post-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
