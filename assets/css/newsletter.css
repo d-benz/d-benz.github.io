@@ -3,6 +3,25 @@
 /* ========================= */
 
 /* ========================= */
+/*   KILL ALL DEFAULT TITLES */
+/* ========================= */
+
+body.newsletter-page h1:not(.newsletter-hero h1),
+body.newsletter-page .page-title,
+body.newsletter-page .post-title,
+body.newsletter-page .entry-title,
+body.newsletter-page header h1,
+body.newsletter-page [class*="title"] {
+  display: none !important;
+}
+
+body.newsletter-page .post-meta,
+body.newsletter-page .date,
+body.newsletter-page time {
+  display: none !important;
+}
+
+/* ========================= */
 /*   GLOBAL PAGE RESET       */
 /* ========================= */
 
