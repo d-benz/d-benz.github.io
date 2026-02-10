@@ -5,22 +5,24 @@
 .newsletter-hero {
   background: #1F3633;
   color: white;
-  padding: 4rem 2rem 3.5rem 2rem; /* more top padding for gravitas */
+  padding: 4rem 2rem 3.5rem 2rem;
   text-align: center;
   margin-bottom: 3rem;
   border-radius: 8px;
-  line-height: 1.55; /* smoother reading rhythm */
+  line-height: 1.55;
+  width: 100%;
+  display: block;
 }
 
-/* Main title: strong, confident, but not oversized */
+/* Main title */
 .newsletter-hero h1 {
   margin-bottom: 0.75rem;
-  font-size: 3rem; /* slightly larger for masthead presence */
+  font-size: 3rem;
   font-weight: 700;
-  letter-spacing: 0.5px; /* subtle, premium feel */
+  letter-spacing: 0.5px;
 }
 
-/* Tagline: smaller, lighter, with breathing room */
+/* Tagline */
 .newsletter-hero .tagline {
   font-size: 1.35rem;
   margin-bottom: 1.5rem;
@@ -28,7 +30,7 @@
   opacity: 0.95;
 }
 
-/* Description: narrower measure, softer tone */
+/* Description */
 .newsletter-hero .description {
   max-width: 720px;
   margin: 0 auto 1.5rem auto;
@@ -37,25 +39,19 @@
   opacity: 0.95;
 }
 
-/* Byline: understated, slightly smaller */
+/* Byline */
 .newsletter-hero .byline {
   font-size: 1rem;
   margin-bottom: 0.75rem;
   opacity: 0.9;
 }
 
-/* Date: quiet, refined */
+/* Date */
 .newsletter-hero .date {
   font-size: 1rem;
   opacity: 0.85;
   margin-top: 0.25rem;
 }
-
-/* Centred */
-.newsletter-hero {
-  text-align: center !important;
-}
-
 
 /* ========================= */
 /*   BODY + DISCLAIMER       */
@@ -93,4 +89,12 @@
 .newsletter-hero a:hover,
 .newsletter-disclaimer a:hover {
   color: #0f6a74;
+}
+
+/* ========================= */
+/*   GLOBAL FONT FIX         */
+/* ========================= */
+
+body {
+  font-family: "Open Sans", sans-serif;
 }
