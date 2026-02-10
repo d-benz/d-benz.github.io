@@ -1,6 +1,8 @@
 ---
 layout: newsletter
-date: 2026-02-09
+title: null
+date: null
+permalink: /newsletter/ore-odyssey-20260208/
 newsletter_date: 2026-02-08
 ---
 

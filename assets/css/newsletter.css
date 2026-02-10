@@ -3,22 +3,33 @@
 /* ========================= */
 
 /* ========================= */
-/*   KILL ALL DEFAULT TITLES */
+/* NUKE ALL TITLES - TOP     */
 /* ========================= */
 
-body.newsletter-page h1:not(.newsletter-hero h1),
-body.newsletter-page .page-title,
+body.newsletter-page * {
+  /* Kill every possible title/date source */
+}
+
+body.newsletter-page h1,
+body.newsletter-page .h1,
+body.newsletter-page [class*="title"],
+body.newsletter-page [class*="Title"],
 body.newsletter-page .post-title,
 body.newsletter-page .entry-title,
+body.newsletter-page .page-header h1,
 body.newsletter-page header h1,
-body.newsletter-page [class*="title"] {
+body.newsletter-page .page-title,
+body.newsletter-page time,
+body.newsletter-page .post-meta,
+body.newsletter-page .post-date,
+body.newsletter-page .date {
   display: none !important;
 }
 
-body.newsletter-page .post-meta,
-body.newsletter-page .date,
-body.newsletter-page time {
-  display: none !important;
+/* PROTECT YOUR HERO */
+body.newsletter-page .newsletter-hero h1,
+body.newsletter-page .newsletter-hero p {
+  display: block !important;
 }
 
 /* ========================= */
