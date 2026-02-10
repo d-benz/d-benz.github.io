@@ -34,7 +34,7 @@ navbar-links:
 collections:
   newsletter:
     output: true
-    permalink: /:name/
+    permalink: /newsletter/:name/
 
 include:
   - _newsletter
