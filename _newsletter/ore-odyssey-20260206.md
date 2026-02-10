@@ -24,9 +24,12 @@ Source: https://bluelagoonresources.com/wp-content/uploads/2026/02/BLLG-NR-Feb-6
 
 Provides a corporate update on the MC Au-Ag-Pb-Zn-Cu and the Frog Pb-Zn-Ag Projects, Stewart, Tatl’ah (Dease Lake), BC
 
-**Notes:**
+<div class="note-block">
+<strong>Note:</strong>
 
 'Significant gold, silver, lead,  zinc  and  copper  geochemical  anomalies  and  mineral  showings' and 'soil anomalous  area' lack metrics and assay values or ranges. 'Strong anomaly', 'chargeability anomalies', and 'large IP anomalies' lack intensity values or ranges. 'Near surface' lacks distance. 'Open at depth' lacks geological context.
+
+</div>
 
 [News Release](https://www.sedarplus.ca/csa-party/records/document.html?id=7720a9334a57dfd4c8688f63bb4837b845e7e8248cbe494d8525597c8b677482)
 
