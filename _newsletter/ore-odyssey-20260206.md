@@ -7,6 +7,7 @@ class: newsletter-page
 css: newsletter
 ---
 
+<!-- summary: An anniversary, an update, and a PEA for projects in BC. -->
 
 ---
 ### Blue Lagoon Resources Inc.
