@@ -7,27 +7,34 @@ css:
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
-  <body>
+  <body class="newsletter-page">
+
     {% assign page.header = "none" %}
     {% include nav.html %}
 
     <!-- ========================= -->
     <!--   NEWSLETTER HERO BLOCK   -->
     <!-- ========================= -->
-    <div class="newsletter-hero">
-      <h1>Ore Odyssey</h1>
-      <p class="tagline">Real news.</p>
-      <p class="description">
-        A newsletter featuring the latest mineral exploration activities and developments in British Columbia and the Yukon Territory, Canada.
-      </p>
-      <p class="byline">Brought to you by Takom Exploration Ltd.</p>
-      <p class="date">{{ page.newsletter_date | date: "%B %d, %Y" }}</p>
+    <div class="container-md">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+          <div class="newsletter-hero">
+            <h1>Ore Odyssey</h1>
+            <p class="tagline">Real news.</p>
+            <p class="description">
+              A newsletter featuring the latest mineral exploration activities and developments in British Columbia and the Yukon Territory, Canada.
+            </p>
+            <p class="byline">Brought to you by Takom Exploration Ltd.</p>
+            <p class="date">{{ page.newsletter_date | date: "%B %d, %Y" }}</p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- ========================= -->
     <!--   MAIN CONTENT WRAPPER    -->
     <!-- ========================= -->
-    <main class="container-md" style="font-family: 'Open Sans', sans-serif;">
+    <div class="container-md newsletter-wrapper">
       <div class="row">
         <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
 
@@ -69,7 +76,7 @@ css:
 
         </div>
       </div>
-    </main>
+    </div>
 
     {% include footer.html %}
     {% include footer-scripts.html %}
