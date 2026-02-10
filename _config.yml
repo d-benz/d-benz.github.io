@@ -26,9 +26,9 @@ navbar-links:
     - Geostatistics: "geostatistics"
     - Data Workflows: "workflows"
   Newsletter: "newsletter"
-  Resources:
-    - Resources: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+#  Resources:
+#    - Resources: "https://beautifuljekyll.com"
+#    - Learn markdown: "https://www.markdowntutorial.com/"
   Company Site: "https://takomexploration.com"
 
 ################
