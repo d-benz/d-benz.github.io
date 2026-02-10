@@ -7,10 +7,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }}</title>
+  <!-- TEST with direct URL first -->
+  <link rel="stylesheet" href="/assets/css/newsletter.css">
+  <!-- THEN add fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/newsletter.css' | relative_url }}">
-  {% include head.html %}
 </head>
+
 <body class="newsletter-page">
 
   {% assign page.header = "none" %}
