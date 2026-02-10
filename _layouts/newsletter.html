@@ -5,7 +5,7 @@ css:
 ---
 
 
-{% include header.html type="post" %}
+{% include header.html type="none" %}
 
 <!-- ========================= -->
 <!--   NEWSLETTER HERO BLOCK   -->
@@ -17,7 +17,7 @@ css:
     A newsletter featuring the latest mineral exploration activities and developments in British Columbia and the Yukon Territory, Canada.
   </p>
   <p class="byline">Brought to you by Takom Exploration Ltd.</p>
-  <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
+  <p class="date">{{ page.newsletter_date | date: "%B %d, %Y" }}</p>
 </div>
 
 <main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">

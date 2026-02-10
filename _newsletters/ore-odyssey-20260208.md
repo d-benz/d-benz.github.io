@@ -1,7 +1,8 @@
 ---
 layout: newsletter
 title: "Ore Odyssey — February 08, 2026"
-date: 2026-02-08
+date: 2026-02-09            # posted date
+newsletter_date: 2026-02-08 # news cycle date
 ---
 
 
