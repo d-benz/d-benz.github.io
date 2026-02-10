@@ -1,34 +1,22 @@
 /* ========================= */
 /*   PERFECT NEWSLETTER CSS  */
 /* ========================= */
+
+
 /* ========================= */
-/* ABSOLUTE TITLE KILLER     */
+/*   ABSOLUTE TITLE KILLER   */
 /* ========================= */
 
-/* Kill EVERYTHING except our hero */
-body.newsletter-page *:not(.newsletter-hero) h1,
-body.newsletter-page *:not(.newsletter-hero) .h1,
-body.newsletter-page *:not(.newsletter-hero) [class*="title"],
-body.newsletter-page *:not(.newsletter-hero) [class*="Title"],
-body.newsletter-page *:not(.newsletter-hero) time,
-body.newsletter-page *:not(.newsletter-hero) .post-meta,
-body.newsletter-page *:not(.newsletter-hero) .post-date,
-body.newsletter-page *:not(.newsletter-hero) .date {
+/* Kill ONLY titles OUTSIDE newsletter-hero */
+body.newsletter-page h1:not(.newsletter-hero h1),
+body.newsletter-page .page-title,
+body.newsletter-page .post-title,
+body.newsletter-page .entry-title,
+body.newsletter-page header h1:not(.newsletter-hero h1),
+body.newsletter-page time:not(.newsletter-hero time),
+body.newsletter-page .post-meta:not(.newsletter-hero .post-meta),
+body.newsletter-page .post-date:not(.newsletter-hero .post-date) {
   display: none !important;
-  visibility: hidden !important;
-  height: 0 !important;
-  font-size: 0 !important;
-  line-height: 0 !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* PROTECT HERO - Make it visible */
-body.newsletter-page .newsletter-hero,
-body.newsletter-page .newsletter-hero h1,
-body.newsletter-page .newsletter-hero p {
-  display: block !important;
-  visibility: visible !important;
 }
 
 /* ========================= */
@@ -46,70 +34,71 @@ body.newsletter-page {
 /* ========================= */
 
 body.newsletter-page .newsletter-hero {
-  background: #1F3633;
-  color: white;
-  padding: 4rem 2rem 3.5rem 2rem;
-  text-align: center;
-  margin: 2rem auto 3rem;
-  border-radius: 8px;
-  line-height: 1.55;
-  max-width: 720px;
+  background: #1F3633 !important;
+  color: white !important;
+  padding: 4rem 2rem 3.5rem 2rem !important;
+  text-align: center !important;
+  margin: 2rem auto 3rem auto !important;
+  border-radius: 8px !important;
+  line-height: 1.55 !important;
+  max-width: 720px !important;
 }
 
 /* Main title */
 body.newsletter-page .newsletter-hero h1 {
-  margin-bottom: 0.75rem;
-  font-size: 3rem;
-  font-weight: 700;
-  letter-spacing: 0.5px;
+  margin-bottom: 0.75rem !important;
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5px !important;
+  color: white !important;
 }
 
 /* Tagline */
 body.newsletter-page .newsletter-hero .tagline {
-  font-size: 1.35rem;
-  margin-bottom: 1.5rem;
-  font-weight: 400;
-  opacity: 0.95;
+  font-size: 1.35rem !important;
+  margin-bottom: 1.5rem !important;
+  font-weight: 400 !important;
+  opacity: 0.95 !important;
+  color: white !important;
 }
 
 /* Description */
 body.newsletter-page .newsletter-hero .description {
-  max-width: 720px;
-  margin: 0 auto 1.5rem auto;
-  font-size: 1.15rem;
-  line-height: 1.6;
-  opacity: 0.95;
+  max-width: 720px !important;
+  margin: 0 auto 1.5rem auto !important;
+  font-size: 1.15rem !important;
+  line-height: 1.6 !important;
+  opacity: 0.95 !important;
+  color: white !important;
 }
 
 /* Byline */
 body.newsletter-page .newsletter-hero .byline {
-  font-size: 1rem;
-  margin-bottom: 0.75rem;
-  opacity: 0.9;
+  font-size: 1rem !important;
+  margin-bottom: 0.75rem !important;
+  opacity: 0.9 !important;
+  color: white !important;
 }
 
 /* Date */
 body.newsletter-page .newsletter-hero .date {
-  font-size: 1rem;
-  opacity: 0.85;
-  margin-top: 0.25rem;
+  font-size: 1rem !important;
+  opacity: 0.85 !important;
+  margin-top: 0.25rem !important;
+  color: white !important;
 }
 
 /* ========================= */
 /*   BODY + CONTENT          */
 /* ========================= */
 
-body.newsletter-page .newsletter-body.post-content {
-  background: white;
-  padding: 2.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-  margin-bottom: 3rem;
-  line-height: 1.7;
-}
-
 body.newsletter-page .newsletter-body {
-  margin-bottom: 3rem;
+  background: white !important;
+  padding: 2.5rem !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+  margin-bottom: 3rem !important;
+  line-height: 1.7 !important;
 }
 
 /* ========================= */
@@ -117,22 +106,22 @@ body.newsletter-page .newsletter-body {
 /* ========================= */
 
 body.newsletter-page .newsletter-disclaimer {
-  margin-top: 4rem;
-  padding: 2.5rem;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-  border-top: 4px solid #138090;
-  font-size: 0.9rem;
-  line-height: 1.65;
+  margin-top: 4rem !important;
+  padding: 2.5rem !important;
+  background: white !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+  border-top: 4px solid #138090 !important;
+  font-size: 0.9rem !important;
+  line-height: 1.65 !important;
 }
 
 body.newsletter-page .newsletter-disclaimer h2 {
-  margin-bottom: 1.5rem;
-  font-size: 1.3rem;
-  color: #1F3633;
-  border-bottom: 2px solid #eee;
-  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem !important;
+  font-size: 1.3rem !important;
+  color: #1F3633 !important;
+  border-bottom: 2px solid #eee !important;
+  padding-bottom: 0.5rem !important;
 }
 
 /* ========================= */
@@ -142,57 +131,24 @@ body.newsletter-page .newsletter-disclaimer h2 {
 body.newsletter-page .newsletter-body a,
 body.newsletter-page .newsletter-hero a,
 body.newsletter-page .newsletter-disclaimer a {
-  color: #138090;
-  text-decoration: underline;
-  font-weight: 500;
+  color: #138090 !important;
+  text-decoration: underline !important;
+  font-weight: 500 !important;
 }
 
 body.newsletter-page .newsletter-body a:hover,
 body.newsletter-page .newsletter-hero a:hover,
 body.newsletter-page .newsletter-disclaimer a:hover {
-  color: #0f6a74;
-  text-decoration: none;
+  color: #0f6a74 !important;
+  text-decoration: none !important;
 }
 
 /* ========================= */
-/*   NARROW READABLE WIDTH   */
+/*   NARROW WIDTH            */
 /* ========================= */
 
 body.newsletter-page main.container,
 body.newsletter-page .container {
   max-width: 720px !important;
-  margin: 0 auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-/* ========================= */
-/*   HIDE DEFAULT TITLE      */
-/* ========================= */
-
-body.newsletter-page .page-title,
-body.newsletter-page h1.page-title,
-body.newsletter-page .post-title {
-  display: none !important;
-}
-
-/* ========================= */
-/*   PERFECT RESPONSIVE      */
-/* ========================= */
-
-@media (max-width: 768px) {
-  body.newsletter-page .newsletter-hero {
-    padding: 2.5rem 1.5rem;
-    margin: 1rem;
-  }
-  
-  body.newsletter-page .newsletter-hero h1 {
-    font-size: 2.2rem;
-  }
-  
-  body.newsletter-page .newsletter-body.post-content,
-  body.newsletter-page .newsletter-disclaimer {
-    margin: 1rem;
-    padding: 2rem 1.5rem;
-  }
+  margin: 0 auto !important;
 }
