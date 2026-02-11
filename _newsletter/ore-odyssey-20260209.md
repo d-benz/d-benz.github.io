@@ -1,6 +1,6 @@
 ---
 layout: newsletter
-title: 
+title: ""
 permalink: /newsletter/ore-odyssey-20260209/
 newsletter_date: 2026-02-09
 class: newsletter-page
