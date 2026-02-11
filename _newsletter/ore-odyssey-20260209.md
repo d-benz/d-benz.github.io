@@ -29,7 +29,7 @@ Releases the results of an evaluation of assay data from the Adanac Mo Project, 
 <div class="note-block">
 <strong>Note:</strong>
 
-'Up to' lacks assay values or ranges. Historial-Present core size, true width, collar table, prep sieve size, assay weight, and QA/QC verification results are missing. 
+'Up to' lacks assay values or ranges. Historical-Present core size, true width, collar table, prep sieve size, assay weight, and QA/QC verification results are missing. 
 
 </div>
 
