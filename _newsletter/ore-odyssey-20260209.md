@@ -7,6 +7,7 @@ class: newsletter-page
 css: newsletter
 ---
 
+---
 ### Banyan Gold Corp.
 
 Releases drill core assay results for the AurMac Au Project, Mayo, YT, Kaska, Liard, Daylu Dena
@@ -53,16 +54,12 @@ CuEqR lacks an equation and parameters. 'High conductivity', 'conductivity high 
 
 Announces a name change to NovaRed Mining Inc. It holds a 70 % interest in the Wilmac Cu-Au Project, Princeton, BC
 
-</div>
-
 [News Release](https://www.sedarplus.ca/csa-party/records/document.html?id=2b5d254358252e0b818b1d837f81d9772ff47cbb2ac669fbfe21729ad8ddb455)
 
 ---
 ### Talisker Resources Ltd.
 
 Releases drill core assay results for the Bralorne Au Project, Gold Bridge, BC
-
-</div>
 
 [News Release](https://taliskerresources.com/news/news-releases/talisker-intersects-52-2-g-t-au-over-0-55-metres-13383/)
 
