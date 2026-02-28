@@ -57,7 +57,7 @@ Files a technical report on the Iron Range Au-Ag-Pb-Zn Project and announces pla
 <div class="note-block">
 <strong>Note:</strong><br>
 
-'Remains open' lacks geological context. Intervals lacks 'from' distances. Core size, sample length, true width, collar table, prep & assay method, and a QA/QC description are missing. Intervals are without a Maximum Internal Dilution and a minimum grade.
+'Remains open' lacks geological context. Intervals lack 'from' distances. Core size, sample length, true width, collar table, prep & assay method, and a QA/QC description are missing. Intervals are without a Maximum Internal Dilution and a minimum grade.
 
 </div>
 
@@ -137,7 +137,7 @@ Releases surface sampling assay results for the Zinger Au Project, Kimberley, BC
 <div class="note-block">
 <strong>Note:</strong><br>
 
-Grab lacks sample type (outcrop, float). 'Over 10' and 'more than 10' lacks count. 'Gold in soil anomaly' lacks assay values or ranges. Photos B & C lack assay values or ranges. Figures 2 & 4 lacks a rock sample type (outcrop, float), Soil horizon, soil sample depth, soil sample spacing, soil interpolation method, sample weight, prep & assay method, and a QA/QC description are missing.
+Grab lacks sample type (outcrop, float). 'Over 10' and 'more than 10' lack count. 'Gold in soil anomaly' lacks assay values or ranges. Photos B & C lack assay values or ranges. Figures 2 & 4 lack a rock sample type (outcrop, float). Soil horizon, soil sample depth, soil sample spacing, soil interpolation method, sample weight, prep & assay method, and a QA/QC description are missing.
 
 </div>
 
@@ -146,12 +146,12 @@ Grab lacks sample type (outcrop, float). 'Over 10' and 'more than 10' lacks coun
 ---
 ### Questcorp Mining Inc.
 
-Commences an Induced Polarization (IP) geophysical survey are the North Island Cu Project, Port Hardy, BC
+Commences an Induced Polarization (IP) geophysical survey on the North Island Cu Project, Port Hardy, BC
 
 <div class="note-block">
 <strong>Note:</strong><br>
 
-'Chargeability anomaly' lacks intensity values or ranges. Intercepts lacks 'from' distances. Core size, sample length, true width, collar table, prep & assay method, and a QA/QC description are missing. Intervals are without a Maximum Internal Dilution and a minimum grade.
+'Chargeability anomaly' lacks intensity values or ranges. Intercepts lack 'from' distances. Core size, sample length, true width, collar table, prep & assay method, and a QA/QC description are missing. Intervals are without a Maximum Internal Dilution and a minimum grade.
 
 </div>
 
@@ -207,7 +207,7 @@ Releases additional drill core assay results for the White Gold Au Project, Daws
 <div class="note-block">
 <strong>Note:</strong><br>
 
-Intervals in the paragraphs lack 'from' distances. 'Multiple directions' and 'open' lack geological context. 'Multiple' and 'near-surface' lacks metrics. Core sample length, QA/QC insertion rate, and QA/QC verification results are missing. Intervals are without a Maximum Internal Dilution and a minimum grade.
+Intervals in the paragraphs lack 'from' distances. 'Multiple directions' and 'open' lack geological context. 'Multiple' and 'near-surface' lack metrics. Core sample length, QA/QC insertion rate, and QA/QC verification results are missing. Intervals are without a Maximum Internal Dilution and a minimum grade.
 
 </div>
 
