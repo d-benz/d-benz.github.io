@@ -117,7 +117,7 @@ Increases throughput of Au-Ag mill feed from its partnership with Blue Lagoon Re
 ---
 ### Omega Pacific Resources Ltd.
 
-Reports data analysis results for the Williams Au Project, BC
+Reports data analysis results for the Williams Au Project, Tatl'ah (Dease Lake), BC
 
 <div class="note-block">
 <strong>Note:</strong><br>
