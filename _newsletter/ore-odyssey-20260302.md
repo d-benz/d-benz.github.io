@@ -138,7 +138,7 @@ Announces the results of an ionic leach soil geochemical survey and geophysical 
 <div class="note-block">
 <strong>Note:</strong><br>
 
-'Copper-in-soil anomalies', 'copper anomalies', and 'old and copper surface geochemical anomalies' lack assay values or ranges. 'Magnetic and conductivity highs' lack intensity values or ranges. 'Open in multiple directions' and 'open in several directions' lack geological context. Figures 2 & 3's legends show maximum values at 1.300 - 14 ppb Cu; the captions shows 1,300 ppb Cu. 'Numerous' lacks metrics. Soil horizon, sample depth, sample weight, prep method, geophysical survey parameters, and a QA/QC verification description are missing.
+'Copper-in-soil anomalies', 'copper anomalies', and 'old and copper surface geochemical anomalies' lack assay values or ranges. 'Magnetic and conductivity highs' lack intensity values or ranges. 'Open in multiple directions' and 'open in several directions' lack geological context. Figures 2 & 3's legends show maximum values at 1.300 - 14 ppb Cu; the captions shows 1,300 ppb Cu. 'Numerous' lacks metrics. Soil horizon, sample depth, sample weight, prep method, geophysical survey parameters, and a QA/QC verification description are missing. <br>
 'Double-lobe QUEST-AI target', 'Geoscience BC Artificial-Intelligence (AI) work', and 'recent Artificial-Intelligence (“AI”) work by Geoscience BC (Mitchinson et al., Geoscience BC Report 2022-07)' is described as using geophysical modelling to build an overburden thickness model and identify porphyry targets; it is not described by Geoscience BC as an artificial-intelligence or machine-learning study.
 
 </div>
@@ -209,7 +209,7 @@ Releases preliminary drill core assay results for the Kena Au-Cu Project, Nelson
 <div class="note-block">
 <strong>Note:</strong><br>
 
-'\[Broad] zones of near-surface' lacks metrics. 'Significant gold mineralization with elevated copper and silver values' lacks assay values or ranges. Core size, true width, collar table, assay weight, QA/QC insertion rate, and QA/QC verification results are missing. Intervals are without a Maximum Internal Dilution and a minimum grade.
+'~[Broad]~ zones of near-surface' lacks metrics. 'Significant gold mineralization with elevated copper and silver values' lacks assay values or ranges. Core size, true width, collar table, assay weight, QA/QC insertion rate, and QA/QC verification results are missing. Intervals are without a Maximum Internal Dilution and a minimum grade.
 
 </div>
 
