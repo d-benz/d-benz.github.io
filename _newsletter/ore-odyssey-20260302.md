@@ -97,7 +97,7 @@ Announces plans to prepare a Mineral Resource Estimate for the Quesnelle Gold Qu
 
 </div>
 
-[News Release](https://goldencariboo.com/news/golden-cariboo-ni-43-101-mineral-resource-estimate-halo-main/
+[News Release](https://goldencariboo.com/news/golden-cariboo-ni-43-101-mineral-resource-estimate-halo-main/)
 
 ---
 ### Maxus Mining Inc.
@@ -209,7 +209,7 @@ Releases preliminary drill core assay results for the Kena Au-Cu Project, Nelson
 <div class="note-block">
 <strong>Note:</strong><br>
 
-'~[Broad]~ zones of near-surface' lacks metrics. 'Significant gold mineralization with elevated copper and silver values' lacks assay values or ranges. Core size, true width, collar table, assay weight, QA/QC insertion rate, and QA/QC verification results are missing. Intervals are without a Maximum Internal Dilution and a minimum grade.
+'&#91;Broad&#93; zones of near-surface' lacks metrics. 'Significant gold mineralization with elevated copper and silver values' lacks assay values or ranges. Core size, true width, collar table, assay weight, QA/QC insertion rate, and QA/QC verification results are missing. Intervals are without a Maximum Internal Dilution and a minimum grade.
 
 </div>
 
