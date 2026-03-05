@@ -37,7 +37,7 @@ Omega Pacific:
 ---
 ### Defense Metals Corp.
 
-Receives conditional approval for up to C$1.88 mullion in funding, under the Critical Minerals Infrastructure Fund, to develop the Wicheeda REE Project, Prince George, BC 
+Receives conditional approval for up to C$1.88 million in funding, under the Critical Minerals Infrastructure Fund, to develop the Wicheeda REE Project, Prince George, BC 
 
 [News Release](https://www.defensemetals.com/_files/ugd/433b25_e01dcb4f295240099185c495af3c4946.pdf){:target="_blank" :rel="noopener noreferrer"}
 
