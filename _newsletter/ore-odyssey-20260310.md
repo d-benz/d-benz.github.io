@@ -30,7 +30,7 @@ Files technical reports for the Wolf Zn-Pb-Ag, Pelly Zn-Cu-Pb-Au-Ag, and Kona Cu
 
 [Pelly Technical Report](https://www.sedarplus.ca/csa-party/records/document.html?id=c7edcb347c2d02ad4f15e9dfb64565e2c995382bfdc726f1747546333ba0383b){:target="_blank" :rel="noopener noreferrer"}
 
-[Kona Technical Report](https://www.sedarplus.ca/csa-party/records/document.html?id=0bb0dd4395010718ae545fee9afc62f7257e6b4fedb0d1112ae1382ab907e0c1)target="_blank" :rel="noopener noreferrer"}
+[Kona Technical Report](https://www.sedarplus.ca/csa-party/records/document.html?id=0bb0dd4395010718ae545fee9afc62f7257e6b4fedb0d1112ae1382ab907e0c1)target="_blank" {:target="_blank" :rel="noopener noreferrer"}
 
 ---
 ### Bronco Resources Corp.
