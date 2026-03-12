@@ -33,7 +33,7 @@ Highlight intervals lack 'from' distances. Figure 1's Au grade (g/t) x Interval 
 
 </div>
 
-[News Release](https://banyangold.com/news-releases/2026/banyan-gold-continues-to-intersect-visible-gold-and-high-grade-mineralization-in-powerline-yukon-canada/
+[News Release](https://banyangold.com/news-releases/2026/banyan-gold-continues-to-intersect-visible-gold-and-high-grade-mineralization-in-powerline-yukon-canada/)
 
 ---
 ### GoldHaven Resources Corp.
