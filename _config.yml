@@ -21,10 +21,7 @@ author: D. Benz, PhD
 
 navbar-links:
   About Me: "about"
-  Portfolio:
-    - Research: "research"
-    - Geostatistics: "geostatistics"
-    - Data Workflows: "workflows"
+  Portfolio: "assets/pdf/Resume_DianaBenz_Portfolio_20260311.pdf"
   Newsletter: "newsletter"
 #  Resources:
 #    - Resources: "https://beautifuljekyll.com"
