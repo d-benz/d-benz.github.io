@@ -10,7 +10,7 @@ The site shares research notes, data workflows, and exploration‑focused thinki
 - Custom About page  
 - Newsletter collection  
 - Portfolio sections  
-- Reproducible, evidence‑grade publishing workflow  
+- Reproducible, evidence‑based publishing workflow  
 - Clean, minimal Jekyll configuration  
 
 ## Philosophy
