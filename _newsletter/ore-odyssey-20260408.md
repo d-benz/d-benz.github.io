@@ -10,7 +10,7 @@ css: newsletter
 ---
 ### Endurance Gold Corporation
 
-To commences a multi-rig drilling program at the Reliance Au Project, Gold Bridge, BC
+To commence a multi-rig drilling program at the Reliance Au Project, Gold Bridge, BC
 
 <div class="note-block">
 <strong>Note:</strong><br>
