@@ -46,7 +46,7 @@ Completes its acquisition of the Lara Au-Ag-Cu-Zn-Pb Project, Chemainus, BC
 [News Release](https://www.novapacificmetals.com/nova-pacific-metals-completes-acquisition-and-secures-100-interest-in-the-lara-vms-project/){:target="_blank" :rel="noopener noreferrer"}
 
 ---
-### Walker lane Resources Ltd.
+### Walker Lane Resources Ltd.
 
 Provides an update on permitting for the Silver Hart Project, Watson Lake, YT
 
