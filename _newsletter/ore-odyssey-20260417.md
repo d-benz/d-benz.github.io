@@ -66,7 +66,7 @@ Files an updated Mineral Resource Estimate on the Kwanika-Stardust Cu Project, T
 
 Files a technical report on the Harrison Au Project, Harrison Lake, BC
 
-[News Release](https://www.sedarplus.ca/csa-party/records/document.html?id=5d46a5b4b0082475b731358fa349fadf86275142a396c09aba7df67a8106d0c0)
+[News Release](https://www.sedarplus.ca/csa-party/records/document.html?id=5d46a5b4b0082475b731358fa349fadf86275142a396c09aba7df67a8106d0c0):target="_blank" :rel="noopener noreferrer"}
 
 ---
 ### Vizsla Copper Corp.
