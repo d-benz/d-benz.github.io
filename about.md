@@ -4,20 +4,12 @@ title: About
 subtitle: Exploration, data, and stewardship shaped by rural Canadian roots
 ---
 
-Takom Exploration is more than a name — it reflects a lineage of hands‑on work, land‑based knowledge, and a long-standing commitment to responsible mineral exploration. This perspective is rooted in a family history woven through British Columbia’s resource sector: heavy equipment operators who helped build the Boss Mountain Mine, welders and mechanics at the Highland Valley Copper Mine, and generations shaped by the landscapes of the Interior — from hotel owners supporting the BC gold rush to trappers, forestry support crews, and sawmill workers. These rural Canadian roots inform an approach to exploration that values practical experience, environmental awareness, and respect for the land.
+I come from a family history shaped by the resource landscapes of British Columbia: heavy‑equipment operators who that say the formation of the Boss Mountain Mine; welders and mechanics at Highland Valley Copper; hotel owners during the gold rush; and Trappers, forestry crews, and sawmill workers across the Interior. That mix of practical work and land‑based knowledge is the background I grew up with, and it still informs how I think about exploration and environmental data.
 
-With 30 years of experience across mineral exploration, earth sciences, biology, and geostatistics, my work focuses on building **transparent, reproducible, evidence‑grade workflows** for exploration and environmental data. This includes a growing specialization in **Generative Mineral Exploration** — using structured data, spatial reasoning, and computational tools to surface patterns, hypotheses, and insights that support early‑stage decision‑making.
+I’ve spent 30 years working across mineral exploration, earth sciences, biology, and geostatistics. My focus is on building transparent, reproducible, evidence‑grade workflows — the kind that hold up under scrutiny and help people make better decisions early in a project. A lot of my work now sits in Generative Mineral Exploration: using structured data, spatial reasoning, and computational tools to surface patterns and hypotheses that are actually useful at the early stage.
 
-Generative mineral exploration is a disciplined way of combining:
+For me, generative exploration is a practical combination of **spatial analysis**, **geostatistics**, **reproducible pipelines**, early environmental awareness, field‑grounded interpretation, and the ability to pull diverse datasets into something clear and defensible. The goal is straightforward: understand the resource potential and the land together, not separately.
 
-- spatial and geostatistical analysis  
-- reproducible data and reporting pipelines  
-- early environmental awareness  
-- field‑grounded interpretation  
-- integration of diverse datasets into clear, defensible insights  
+This site collects research notes, workflows, and exploration‑focused thinking shaped by northern landscapes and scientific practice. It reflects a simple idea — responsible exploration comes from clarity, good data, and respect for the places where we work.
 
-The goal is simple: help explorers make better decisions by understanding both the resource potential and the land that holds it.
-
-This site shares research notes, workflows, and exploration‑focused thinking shaped by northern landscapes and scientific practice. It reflects a belief that responsible exploration is built on clarity, stewardship, and a deep respect for the places where we work.
-
-If this perspective resonates with your project or research, feel free to reach out.
+If this perspective aligns with your project or research, feel free to reach out.
