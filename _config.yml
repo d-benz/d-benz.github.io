@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Takom Exploration
+title: D. Benz - Prospector with a PhD
 
 # Your name to show in the footer
 author: D. Benz, PhD
@@ -22,19 +22,19 @@ author: D. Benz, PhD
 navbar-links:
   About Me: "about"
   Portfolio: "assets/pdf/Resume_DianaBenz_Portfolio_20260311.pdf"
-  Newsletter: "newsletter"
+#  Newsletter: "newsletter"
 #  Resources:
 #    - Resources: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
-  Company Site: "https://takomexploration.com"
+#  Company Site: "https://takomexploration.com"
 
-collections:
-  newsletter:
-    output: true
-    permalink: /newsletter/:name/
+# collections:
+#  newsletter:
+#    output: true
+#    permalink: /newsletter/:name/
 
-include:
-  - _newsletter
+# include:
+#   - _newsletter
 
 ################
 # --- Logo --- #
@@ -42,7 +42,7 @@ include:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/LogoWhite_432_20230103.png"
+avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
@@ -60,7 +60,7 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "takomexploration@gmail.com"
+  email: "db.generic@hotmail.ca"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: deanattali
   github: d-benz
@@ -83,7 +83,7 @@ social-network-links:
 #  telegram: yourname
 #  calendly: yourname
 #  mastodon: instance.url/@username
-  bluesky: takomexplore
+#  bluesky: takomexplore
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
@@ -112,7 +112,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "takomexploration.com"
+# url-pretty: "takomexploration.com"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
