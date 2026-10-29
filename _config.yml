@@ -10,18 +10,18 @@
 ############################
 
 # Name of website
-title: D. Benz - Prospector with a PhD
+title: Geology, Biogeochemistry, Data Science, & Machine Learning/AI
 
 # Your name to show in the footer
-author: D. Benz, PhD
+author: Diana Benz, PhD
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "about"
-  Portfolio: "assets/pdf/Resume_DianaBenz_Portfolio_20260311.pdf"
+  About: "about"
+  Portfolio & Resume: "assets/pdf/Resume_DianaBenz_Portfolio_20260311.pdf"
 #  Newsletter: "newsletter"
 #  Resources:
 #    - Resources: "https://beautifuljekyll.com"
@@ -70,7 +70,7 @@ social-network-links:
 #  whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
-#  linkedin: daattali
+  linkedin: dianabenz
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -93,10 +93,14 @@ social-network-links:
 #  itchio: yourname
 #  untappd: yourname
 #  strava: youruserid
+#  substack: https://substack.com/@dbenz96
+  google-scholar: SHRG05412ym2yO3LC
+#  academia: https://independent.academia.edu/DianaBenz
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: News headlines, updates, research notes, and data workflows for mineral explorers primarily based in BC, YT, and Canada.
+rss-description: Research notes, exploration insights, data quality, geochemistry, biogeochemistry, machine learning, and AI applications in mineral exploration.
+description: Exploration geology, biogeochemistry, prospector, and data scientist with 30 years of experience integrating geology, biology, geochemistry, geostatistics, machine learning, and AI for mineral exploration.
 
 ###########################
 # --- General options --- #
@@ -118,7 +122,7 @@ share-links-active:
 title-on-all-pages: true
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 50
+excerpt_length: 100
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
@@ -138,7 +142,7 @@ edit_page_button: true
 navbar-var-length: true
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "mineral exploration, geology, exploration geologist, biogeochemistry, geochemistry, data science, machine learning, artificial intelligence, AI, QAQC, geostatistics, mineral deposits, covered terrain exploration, British Columbia, Yukon, Greenland, MINFILE"
 
 ######################################
 # --- Colours / background image --- #
